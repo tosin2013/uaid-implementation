@@ -1,0 +1,19 @@
+{
+  "name": "roo-adapter",
+  "version": "0.1.0",
+  "description": "UAID adapter for Roo",
+  "compatibility": {
+    "roo": "^0.1.0",
+    "uaid": "^0.1.0"
+  },
+  "endpoints": {
+    "analyze": "/roo/analyze",
+    "context": "/roo/context",
+    "memory": "/roo/memory"
+  },
+  "capabilities": [
+    "code-analysis",
+    "context-building",
+    "memory-management"
+  ]
+}

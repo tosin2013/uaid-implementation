@@ -1,0 +1,15 @@
+You are helping to build comprehensive context for AI-assisted development. Using the following information, create a rich context that would help an AI assistant understand this code better:
+
+FILE: {{FILE}}
+CODE SUMMARY: {{SUMMARY}}
+RELATED FILES: {{RELATED_FILES}}
+PROJECT STRUCTURE: {{PROJECT}}
+
+Please organize this into a structured context that captures:
+1. The purpose and functionality of the code
+2. How it fits within the larger project
+3. Key dependencies and relationships
+4. Patterns and conventions used
+5. Important considerations for modifications
+
+This context will be used to improve AI-assisted coding, so focus on what would be most useful for an AI to know when helping with this code.

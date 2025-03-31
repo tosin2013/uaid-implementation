@@ -1,0 +1,15 @@
+You are helping to retrieve and apply relevant knowledge from past interactions. Here are some previous interactions related to the current task:
+
+QUERY: {{QUERY}}
+CURRENT FILE: {{FILE}}
+
+RELEVANT MEMORIES:
+{{MEMORIES}}
+
+Based on these past interactions and the current context, please:
+1. Summarize the most relevant insights from past interactions
+2. Explain how these insights apply to the current task
+3. Provide specific recommendations based on this combined knowledge
+4. Identify any important considerations or warnings based on past experiences
+
+Your goal is to build upon past knowledge to provide better assistance with the current task.

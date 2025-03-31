@@ -1,0 +1,18 @@
+You are a technical documentation expert. Please generate comprehensive documentation for the following code:
+
+CODE:
+{{CODE}}
+
+CONTEXT:
+{{CONTEXT}}
+
+Please include the following sections:
+1. Overview - A high-level description of what this code does
+2. API Reference - Detailed documentation of each function/method
+3. Parameters - Description of all input parameters
+4. Return Values - Description of what the code returns
+5. Usage Examples - Clear examples of how to use this code
+6. Dependencies - What external libraries or systems this code depends on
+7. Error Handling - How errors are handled and what errors might occur
+
+Format this documentation in Markdown so it can be easily incorporated into project documentation.

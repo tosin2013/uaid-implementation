@@ -1,0 +1,46 @@
+{
+  "id": "custom-001",
+  "name": "JavaScript Project Analysis",
+  "version": "0.1.0",
+  "scope": ["javascript", "node", "web"],
+  "patterns": [
+    {
+      "type": "file",
+      "match": "package.json"
+    },
+    {
+      "type": "file",
+      "match": "*.js"
+    },
+    {
+      "type": "file",
+      "match": "*.jsx"
+    },
+    {
+      "type": "file",
+      "match": "*.ts"
+    },
+    {
+      "type": "file",
+      "match": "*.tsx"
+    }
+  ],
+  "metadata": {
+    "framework_detection": {
+      "react": ["react", "react-dom"],
+      "vue": ["vue"],
+      "angular": ["@angular/core"],
+      "express": ["express"],
+      "next": ["next"],
+      "nuxt": ["nuxt"]
+    },
+    "important_files": [
+      "package.json",
+      "tsconfig.json",
+      "webpack.config.js",
+      "babel.config.js",
+      ".eslintrc.json",
+      "jest.config.js"
+    ]
+  }
+}

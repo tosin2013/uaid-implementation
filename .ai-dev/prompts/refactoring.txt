@@ -1,0 +1,22 @@
+You are an expert in code refactoring. Please analyze the following code and suggest refactoring improvements:
+
+CODE:
+{{CODE}}
+
+CONTEXT:
+{{CONTEXT}}
+
+For each refactoring suggestion, please provide:
+1. What should be refactored
+2. Why it should be refactored (the benefit)
+3. How it should be refactored (with example code if helpful)
+4. Any potential risks or downsides to consider
+
+Focus on improvements to:
+- Code readability and maintainability
+- Performance optimizations
+- Design patterns and architecture
+- Error handling and robustness
+- Modularity and reusability
+
+Please prioritize your suggestions by impact vs. effort required.

@@ -1,0 +1,48 @@
+{
+  "id": "custom-002",
+  "name": "Python Project Analysis",
+  "version": "0.1.0",
+  "scope": ["python", "data-science", "web", "backend"],
+  "patterns": [
+    {
+      "type": "file",
+      "match": "requirements.txt"
+    },
+    {
+      "type": "file",
+      "match": "setup.py"
+    },
+    {
+      "type": "file",
+      "match": "*.py"
+    },
+    {
+      "type": "file",
+      "match": "Pipfile"
+    },
+    {
+      "type": "file",
+      "match": "pyproject.toml"
+    }
+  ],
+  "metadata": {
+    "framework_detection": {
+      "django": ["django"],
+      "flask": ["flask"],
+      "fastapi": ["fastapi"],
+      "pytorch": ["torch"],
+      "tensorflow": ["tensorflow"],
+      "pandas": ["pandas"],
+      "numpy": ["numpy"]
+    },
+    "important_files": [
+      "requirements.txt",
+      "setup.py",
+      "pyproject.toml",
+      "Pipfile",
+      "pytest.ini",
+      ".flake8",
+      "mypy.ini"
+    ]
+  }
+}

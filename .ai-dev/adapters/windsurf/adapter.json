@@ -1,0 +1,19 @@
+{
+  "name": "windsurf-adapter",
+  "version": "0.1.0",
+  "description": "UAID adapter for Windsurf",
+  "compatibility": {
+    "windsurf": "^0.1.0",
+    "uaid": "^0.1.0"
+  },
+  "endpoints": {
+    "analyze": "/windsurf/analyze",
+    "context": "/windsurf/context",
+    "memory": "/windsurf/memory"
+  },
+  "capabilities": [
+    "code-analysis",
+    "context-building",
+    "memory-management"
+  ]
+}

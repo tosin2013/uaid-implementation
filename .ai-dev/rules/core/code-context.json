@@ -1,0 +1,12 @@
+{
+  "id": "core-001",
+  "name": "Code Context Extraction",
+  "version": "0.1.0",
+  "scope": ["code", "ai"],
+  "patterns": [
+    {
+      "type": "file",
+      "match": "*.{js,ts,py,java,c,cpp,go,rb,php,cs}"
+    }
+  ]
+}

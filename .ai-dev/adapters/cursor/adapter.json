@@ -1,0 +1,19 @@
+{
+  "name": "cursor-adapter",
+  "version": "0.1.0",
+  "description": "UAID adapter for Cursor",
+  "compatibility": {
+    "cursor": "^0.1.0",
+    "uaid": "^0.1.0"
+  },
+  "endpoints": {
+    "analyze": "/cursor/analyze",
+    "context": "/cursor/context",
+    "memory": "/cursor/memory"
+  },
+  "capabilities": [
+    "code-analysis",
+    "context-building",
+    "memory-management"
+  ]
+}

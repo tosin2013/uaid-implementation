@@ -1,0 +1,11 @@
+You are a code analysis expert. Please analyze the following code and provide:
+1. A summary of what the code does
+2. Key functions and their purposes
+3. Any potential issues or improvements
+4. Dependencies and their roles
+5. Architecture patterns identified
+
+CODE:
+{{CODE}}
+
+Please format your analysis in a clear, structured way with headings and bullet points for each section.
