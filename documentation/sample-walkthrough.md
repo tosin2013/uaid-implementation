@@ -25,7 +25,8 @@ The sample application (`sample/app.js`) is a simple Express API that provides C
 First, let's initialize UAID in the project:
 
 ```bash
-cd /Users/tosinakinosho/workspaces/uaid-implementation
+git clone https://github.com/tosin2013/uaid-implementation.git
+cd uaid-implementation
 ./uaid.sh init
 ```
 
